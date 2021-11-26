@@ -1,25 +1,26 @@
-title:            Jordi Pont-Tuset's site
+title:            Joao Jorge's site
 description:      Welcome to my site.
 # Your site's domain goes here. Leave localhost server or blank when working locally.
-url:              //jponttuset.github.io
+url:              //joaogjorge.github.io
 #http://localhost:5000
-#https://jponttuset.github.io
-disqus_shortname: jponttuset
+#https://joaogjorge.github.io
+disqus_shortname: joaogjorge
 
 # Owner/author information
 owner:
-  name:           Jordi Pont-Tuset
+  name:           Joao G M Jorge
   avatar:         jordi.png
   bio:            I'm from a small town near Girona, Catalunya. Currently in Zürich, Switzerland. Passionate about computer vision, technology, running, and mountains.
-  email:          jponttuset@gmail.com
+  email:          joao.gm.jorge@gmail.com
   # Social networking links are used in author-bio sidebar. Update and remove as you like.
-  twitter: jponttuset
-  linkedin: jponttuset
-  google_scholar: VCBBx24AAAAJ
-  google_plus: 113718226018314522413
-  github: jponttuset
+  twitter: joaodtroia
+  linkedin: joaogjorge
+  #google_scholar: VCBBx24AAAAJ
+  google_scholar: w7TII3EAAAAJ
+  #google_plus: 113718226018314522413
+  github: joaogjorge
 # Analytics and webmaster tools stuff goes here
-google_analytics: UA-52736040-1
+#google_analytics: UA-52736040-1
 google_verify:
 # https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
 bing_verify:
@@ -37,7 +38,7 @@ links:
     url: /blog/
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-timezone:    Europe/Zurich
+timezone:    Europe/London
 future:      true
 #pygments:    true
 highlighter: rouge
