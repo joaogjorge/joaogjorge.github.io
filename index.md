@@ -4,7 +4,7 @@ title: Me in a Nutshell
 description: "Jordi Pont-Tuset's website"
 tags: [Jekyll, theme, responsive, blog, template]
 image:
-  feature: beau-river.jpg
+  feature: beau-river-c.jpg
 ---
 
 I am a research scientist at <a href="https://research.google.com" target="_blank">Google Research</a>
