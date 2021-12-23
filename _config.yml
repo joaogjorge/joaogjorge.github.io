@@ -8,7 +8,7 @@ disqus_shortname: joaogjorge
 
 # Owner/author information
 owner:
-  name:           Joao G M Jorge
+  name:           Joao Jorge
   avatar:         jordi.png
   bio:            I'm from a small town near Girona, Catalunya. Currently in Zürich, Switzerland. Passionate about computer vision, technology, running, and mountains.
   email:          joao.gm.jorge@gmail.com
@@ -45,7 +45,7 @@ highlighter: rouge
 markdown:    kramdown
 kramdown:
   extensions: ["strikethrough"]
-  
+
 # https://github.com/mojombo/jekyll/wiki/Permalinks
 permalink:   /:categories/:title/
 
