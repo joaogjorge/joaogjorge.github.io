@@ -1,16 +1,21 @@
 title:            Joao Jorge's site
 description:      Welcome to my site.
 # Your site's domain goes here. Leave localhost server or blank when working locally.
-url:              //joaogjorge.github.io
+url:              #//joaogjorge.github.io
 #http://localhost:5000
-#https://joaogjorge.github.io
+https://joaogjorge.github.io
 disqus_shortname: joaogjorge
 
 # Owner/author information
 owner:
   name:           Joao Jorge
+<<<<<<< HEAD
   avatar:         jordi.png
   bio:            I'm from a small town near Girona, Catalunya. Currently in Zürich, Switzerland. Passionate about computer vision, technology, running, and mountains.
+=======
+  avatar:         jorge-c.jpg
+  bio:            or JJ, for short. I’m from Lisbon, Portugal. Currently in Oxford, United Kingdom. I am interested in the use of machine learning tools in answering questions in patient care.
+>>>>>>> ad2ae2b2f8a96e92ce19ec9fd3a8f79448bc25bb
   email:          joao.gm.jorge@gmail.com
   # Social networking links are used in author-bio sidebar. Update and remove as you like.
   twitter: joaodtroia
