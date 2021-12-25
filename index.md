@@ -1,20 +1,19 @@
 ---
 layout: home2
-title: Me in a Nutshell
-description: "Jordi Pont-Tuset's website"
+title: About me
+description: "Joao Jorge's website"
 tags: [Jekyll, theme, responsive, blog, template]
 image:
-  feature: beau-river-c.jpg
+  feature: top_bar.jpg
 ---
 
-I am a research scientist at <a href="https://research.google.com" target="_blank">Google Research</a>
-and part of the advisory board of <a href="http://www.vilynx.com/index.html" target="_blank">Vilynx</a>.
+I work on digital health and medical AI.
 
 <br />
-Previously, I worked at <a href="http://www.vision.ee.ethz.ch/index.en.html" target="_blank">ETHZ</a>
-and <a href="http://www.disneyresearch.com/research-labs/disney-research-zurich/" target="_blank">Disney Research</a>,
-and I collaborated with <a href="http://www.cs.berkeley.edu/~malik/" target="_blank">Prof. J. Malik</a>'s vision group
-and with the startup <a href="https://gestoos.com" target="_blank">Fezoo</a>.
+I am a <a href="https://oxfordbrc.nihr.ac.uk/" target="_blank">NIHR</a> Postdoctoral Research Associate based in <a href="https://reuben.ox.ac.uk/people/lionel-tarassenko" target="_blank">Prof L. Tarassenko</a>’s <a href="https://cameralab.eng.ox.ac.uk/" target="_blank">CameraLab & Wearables</a> group, where I work jointly with the Oxford Health NHS Foundation Trust to develop video-based AI solutions for monitoring patients in both community and hospital settings.
 
 <br />
-I am a mathematician, engineer, and PhD in computer vision by <a href="http://www.upc.edu" target="_blank">UPC Barcelonatech</a>.
+I am also a Senior Research Fellow at <a href="https://www.oxehealth.com/" target="_blank">Oxehealth</a>.
+
+<br />
+Contact me at joao [dot] jorge [at] eng [dot] ox [dot] ac [dot] uk
