@@ -2,9 +2,11 @@
 <!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
 <!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
+<!--[if gt IE 8]><!--> <html lang="en"><!--<![endif]-->
 <head>
 {% include _head.html %}
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/pcooksey/bibtex-js@1.0.0/src/bibtex_js.min.js"></script>
+
 </head>
 
 <body class="page">
@@ -34,6 +36,13 @@ div.bibtex {
 	background: #ffffee;
 }
 div.bibtex pre { font-size: 75%; overflow: auto;  width: 100%; padding: 0em 0em;}</style>
+
+<style>
+.Jorge {
+	font-weight: bold
+}
+</style>
+
 <script type="text/javascript">
     <!--
     // Toggle Display of BibTeX
@@ -80,232 +89,35 @@ div.bibtex pre { font-size: 75%; overflow: auto;  width: 100%; padding: 0em 0em;
     <div class="article-wrap">
       {{ content }}
 
+<h4 style="margin-bottom:12px;padding-top:10px;">Top-Tier Journal Publications</h4>
 
+<li class="bibtex_template">
+	<div style="margin-bottom:10px">
+  <div class="if author">
+         <span class="author"><span class="von"></span> <span class="last"></span><span class="junior">, </span><span class="first_initial">, </span></span>
+	</div>
+	<div style="font-weight:bold">
+		<span class="title"></span>
+	</div>
+	<div>
+		<span class="if journal" style="font-style: italic"><span class="journal"></span>,</span>
+		<span class="if volume">vol. <span class="volume"></span>,</span>
+		<span class="if number">no. <span class="number"></span>,</span>
+		<span class="if pages">pp. <span class="pages"></span>,</span>
+		<span class="if year"><span class="year"></span></span>
+	</div>
+	<div>
+    <span class="if url">
+      <a class="url" style="color:black">[Source]</a>
+    </span>
+  </div>
+</div>
+</li>
 
-<h4 style="margin-bottom:0px;padding-top:10px;">Top-Tier Journal Publications</h4>
+<bibtex src="jjorge_papers.bib"></bibtex>
+<ul id="bibtex_display"></ul>
 
-
-<h3 id="y2009">2009</h3>
-
-
-<ul>
-<li>Monojit Choudhury, Animesh Mukherjee, Anupam Basu, Niloy Ganguly, Ashish Garg and Vaibhav Jalan, <i>Language diversity across the consonant inventories: a study in the  framework of complex networks</i>, arXiv:0904.1289v1 <b>cs.CL</b>, 2009 <a href="http://arxiv.org/abs/0904.1289v1">[html]</a></li>
-<li>E Brigatti and I Roditi, <i>Conventions spreading in open-ended systems</i>, New Journal of Physics <b>11</b>, 023018, 2009 <a href="http://www.iop.org/EJ/article/njp9_2_023018.html">[html]</a> <a href="http://dx.doi.org/10.1088/1367-2630/11/2/023018">[doi]</a></li>
-<li>G&ouml;khan \c Sahin, Murat Erent&uuml;rk and Avadis Hacinliyan, <i>Detrended fluctuation analysis in natural languages using non-corpus parametrization</i>, Chaos, Solitons and Fractals <b>41</b>, 198-205, 2009 <a href="http://dx.doi.org/10.1016/j.chaos.2007.11.026">[html]</a> <a href="http://dx.doi.org/10.1016/j.chaos.2007.11.026">[doi]</a></li>
-<li>Sebastian Bernhardsson, Luis Enrique Correa da Rocha and Petter Minnhagen, <i>Size dependent word frequencies and translational invariance of books</i>, arXiv:0906.0716v1 <b>cs.CL</b>, 2009 <a href="http://arxiv.org/abs/0906.0716v1">[html]</a></li>
-<li>C Cattuto, A Barrat, A Baldassarri and G Schehr, <i>Collective dynamics of social annotation</i>, Proceedings of the National Academy of Sciences, 2009 <a href="http://arxiv.org/pdf/0902.2866">[html]</a></li>
-<li>M  &Aacute;ngeles Serrano, Alessandro Flammini, Filippo Menczer and Enrico Scalas, <i>Modeling statistical properties of written text</i>, PLoS ONE <b>4</b>, e5372, 2009 <a href="http://www.plosone.org/article/info:doi/10.1371/journal.pone.0005372">[html]</a> <a href="http://dx.doi.org/10.1371/journal.pone.0005372.t001">[doi]</a></li>
-<li>Marcelo A Montemurro and Damian Zanette, <i>Towards the quantification of the semantic information encoded in  written language</i>, arXiv:0907.1558v2 <b>physics.soc-ph</b>, 2009 <a href="http://arxiv.org/abs/0907.1558v2">[html]</a></li>
-<li>Sebastian Bernhardsson, Luis Enrique Correa da Rocha and Petter Minnhagen, <i>The meta book and size-dependent properties of written language</i>, arXiv:0909.4385v1 <b>physics.soc-ph</b>, 2009 <a href="http://arxiv.org/abs/0909.4385v1">[html]</a></li>
-<li>P Carpena, P Bernaola-Galv&aacute;n, M Hackenberg, A  V Coronado and J  L Oliver, <i>Level statistics of words: finding keywords in literary texts and symbolic sequences</i>, Phys Rev E <b>79</b>, 2009 <a href="http://link.aps.org/doi/10.1103/PhysRevE.79.035102">[html]</a> <a href="http://dx.doi.org/10.1103/PhysRevE.79.035102">[doi]</a></li>
-<li>Chris Biemann, Monojit Choudhury and Animesh Mukherjee, <i>Syntax is from mars while semantics from venus! insights from spectral  analysis of distributional similarity networks</i>, arXiv:0906.1467v1 <b>physics.data-an</b>, 2009 <a href="http://arxiv.org/abs/0906.1467v1">[html]</a></li>
-<li>T Hadzibeganovic and SA Cannas, <i>A tsallis' statistics based neural network model for novel word learning</i>, Physica A: Statistical Mechanics and its Applications <b>388</b>, 732-746, 2009</li>
-<li>Claudio Castellano, Santo Fortunato and Vittorio Loreto, <i>Statistical physics of social dynamics</i>, Rev. Mod. Phys. <b>81</b>, 591-646, 2009 <a href="http://dx.doi.org/10.1103/RevModPhys.81.591">[html]</a> <a href="http://dx.doi.org/10.1103/RevModPhys.81.591">[doi]</a></li>
-<li>R Blythe, <i>Generic modes of consensus formation in stochastic language dynamics</i>, Journal of Statistical Mechanics: Theory and Experiment <b>2009</b>, P02059, 2009 <a href="http://www.iop.org/EJ/article/jstat9_02_p02059.html">[html]</a> <a href="http://dx.doi.org/10.1088/1742-5468/2009/02/P02059">[doi]</a></li>
-<li>Alvaro Corral, Ramon Ferrer-i-Cancho, Gemma Boleda and Albert Diaz-Guilera, <i>Universal complex structures in written language</i>, arXiv:0901.2924v1 <b>physics.soc-ph</b>, 2009 <a href="http://arxiv.org/abs/0901.2924v1">[html]</a></li>
-<li>Xavier Castell&oacute;, Andrea Baronchelli and Vittorio Loreto, <i>Consensus and ordering in language dynamics</i>, arXiv:0901.3844v1 <b>physics.soc-ph</b>, 2009 <a href="http://arxiv.org/abs/0901.3844v1">[html]</a></li>
-<li>Long Sheng and Chunguang Li, <i>English and chinese languages as weighted complex networks</i>, Physica A: Statistical Mechanics and its Applications <b>388</b>, 2561-2570, 2009 <a href="http://www.sciencedirect.com/science?_ob=ArticleURL&_udi=B6TVG-4VTKKS1-2&_user=965532&_coverDate=06/15/2009&_alid=905922826&_rdoc=3&_fmt=high&_orig=search&_cdi=5534&_sort=d&_docanchor=&view=c&_ct=1028&_acct=C000049540&_version=1&_urlVersion=0&_userid=965532&md5=18c6f6fb1a4db758436a2e27b260a334">[html]</a> <a href="http://dx.doi.org/10.1016/j.physa.2009.02.043">[doi]</a></li>
-<li>A Nicolaidis, Kosmas Kosmidis and Panos Argyrakis, <i>A random matrix approach to language acquisition</i>, arXiv:0909.3912v1 <b>physics.soc-ph</b>, 2009 <a href="http://arxiv.org/abs/0909.3912v1">[html]</a></li>
-<li>P  D Bruza, K Kitto, D Nelson and C McEvoy, <i>Extracting spooky-activation-at-a-distance from considerations of  entanglement</i>, arXiv:0901.4375v1 <b>physics.data-an</b>, 2009 <a href="http://arxiv.org/abs/0901.4375v1">[html]</a></li>
-<li>Veit Schw&auml;mmle and Paulo Murilo Castro De Oliveira, <i>A simple branching model that reproduces language family and language population distributions</i>, Physica A: Statistical Mechanics and its Applications, 2009 <a href="http://www.sciencedirect.com/science?_ob=ArticleURL&_udi=B6TVG-4VY2C8C-2&_user=965532&_coverDate=03/28/2009&_alid=905922826&_rdoc=10&_fmt=high&_orig=search&_cdi=5534&_sort=d&_docanchor=&view=c&_ct=1028&_acct=C000049540&_version=1&_urlVersion=0&_userid=965532&md5=eba0a63be31b7a719289abe229e0dbf9">[html]</a> <a href="http://dx.doi.org/10.1016/j.physa.2009.03.038">[doi]</a></li>
-<li>Ken Yamamoto and Yoshihiro Yamazaki, <i>A network of two-chinese-character compound words in the japanese language</i>, Physica A: Statistical Mechanics and its Applications <b>388</b>, 2555-2560, 2009 <a href="http://www.sciencedirect.com/science?_ob=ArticleURL&_udi=B6TVG-4VS406W-1&_user=965532&_coverDate=06/15/2009&_alid=905922826&_rdoc=2&_fmt=high&_orig=search&_cdi=5534&_sort=d&_docanchor=&view=c&_ct=1028&_acct=C000049540&_version=1&_urlVersion=0&_userid=965532&md5=5b02e892f8c58406ed7b05480c1e21eb">[html]</a> <a href="http://dx.doi.org/10.1016/j.physa.2009.02.032">[doi]</a></li>
-<li>Kostadin Koroutchev, Jian Shen, Elka Koroutcheva and Manuel Cebrian, <i>Keyword detection in natural language based on statistical mechanics of  words in written texts</i>, arXiv:0903.2792v1 <b>cs.IT</b>, 2009 <a href="http://arxiv.org/abs/0903.2792v1">[html]</a></li>
-<li>Daniel J Hruschka, Morten H Christiansen, Richard Blythe, William Croft, Paul Heggarty, Salikoko S Mufwene, Janet B Pierrehumbert and Shana Poplack, <i>Building social cognitive models of language change</i>, Trends in Cognitive Sciences, 1-37, 2009</li>
-<li>Samuel Arbesman, Steven H Strogatz and Michael S Vitevitch, <i>The structure of phonological networks across multiple languages</i>, arXiv:0903.0872v1 <b>physics.soc-ph</b>, 2009 <a href="http://arxiv.org/abs/0903.0872v1">[html]</a></li>
-<li>M Patriarca and E Heinsalu, <i>Influence of geography on language competition</i>, Physica A: Statistical Mechanics and its Applications <b>388</b>, 174-186, 2009 <a href="http://www.sciencedirect.com/science?_ob=ArticleURL&_udi=B6TVG-4TMSNTS-1&_user=965532&_coverDate=01/15/2009&_alid=905922826&_rdoc=21&_fmt=high&_orig=search&_cdi=5534&_sort=d&_docanchor=&view=c&_ct=1028&_acct=C000049540&_version=1&_urlVersion=0&_userid=965532&md5=c9e0fa83d506e042d24e6144b6d99e82">[html]</a> <a href="http://dx.doi.org/10.1016/j.physa.2008.09.034">[doi]</a></li>
-<li>M  Angeles Serrano, Alessandro Flammini and Filippo Menczer, <i>Beyond zipf's law: modeling the structure of human language</i>, arXiv:0902.0606v1 <b>cs.CL</b>, 2009 <a href="http://arxiv.org/abs/0902.0606v1">[html]</a></li>
-</ul>
-<h3 id="y2008">2008</h3>
-
-
-<ul>
-<li>G  J Baxter, R  A Blythe and A  J Mckane, <i>Fixation and consensus times on a network: a unified approach</i>, Phys Rev Lett <b>101</b>, 2008 <a href="http://pre.aps.org/">[html]</a> <a href="http://dx.doi.org/10.1103/PhysRevLett.101.258701">[doi]</a></li>
-<li>J  M Tavares, M  M Telo Da Gama and A Nunes, <i>Coherence thresholds in models of language change and evolution: the effects of noise, dynamics, and network of interactions</i>, Phys Rev E <b>77</b>, 2008 <a href="http://pre.aps.org">[html]</a> <a href="http://dx.doi.org/10.1103/PhysRevE.77.046108">[doi]</a></li>
-<li>S Wichmann, <i>The emerging field of language dynamics</i>, arXiv:0801.1415v1 <b>cs.CL</b>, 2008 <a href="http://arxiv.org/abs/0801.1415v1">[html]</a></li>
-<li>M Serva and F Petroni, <i>Indo-european languages tree by levenshtein distance</i>, EPL (Europhysics Letters) <b>81</b>, 68005, 2008 <a href="http://www.iop.org/EJ/article/epl_81_6_68005.html">[html]</a> <a href="http://dx.doi.org/10.1209/0295-5075/81/68005">[doi]</a></li>
-<li>Edgardo Brigatti, <i>Consequence of reputation in an open-ended naming game</i>, Phys Rev E <b>78</b>, 2008 <a href="http://pre.aps.org/">[html]</a> <a href="http://dx.doi.org/10.1103/PhysRevE.78.046108">[doi]</a></li>
-<li>R  A Blythe, <i>Generic modes of consensus formation in stochastic language dynamics</i>, arXiv:0812.3313v3 <b>physics.soc-ph</b>, 2008 <a href="http://arxiv.org/abs/0812.3313v3">[html]</a></li>
-<li>M Ausloos, <i>Equilibrium (zipf) and dynamic (grasseberg-procaccia) method based  analyses of human texts. a comparison of natural (english) and artificial  (esperanto) languages</i>, arXiv:0802.4215v1 <b>physics.soc-ph</b>, 2008 <a href="http://arxiv.org/abs/0802.4215v1">[html]</a></li>
-<li>J  P Herrera and P  A Pury, <i>Statistical keyword detection in literary corpora</i>, Eur. Phys. J. B <b>63</b>, 135-146, 2008 <a href="http://www.edpsciences.org/journal/index.cfm?edpsname=epjb">[html]</a> <a href="http://dx.doi.org/10.1140/epjb/e2008-00206-x">[doi]</a></li>
-<li>C Schulze, D Stauffer and S Wichmann, <i>Birth, survival and death of languages by monte carlo simulation</i>, Communications in Computational Physics, 2008 <a href="http://web.virtualknowledgestudio.nl/staff/andrea-scharnhorst/documents/heraeus_stauffer.pdf">[html]</a></li>
-<li>Haitao Liu and Fengguo Hu, <i>What role does syntax play in a language network?</i>, EPL (Europhysics Letters) <b>83</b>, 18002, 2008 <a href="http://www.iop.org/EJ/article/epl_83_1_18002.html">[html]</a> <a href="http://dx.doi.org/10.1209/0295-5075/83/18002">[doi]</a></li>
-<li>S Zhou, <i>An empirical study of chinese language networks</i>, Physica A: Statistical Mechanics and its Applications <b>387</b>, 3039-3047, 2008 <a href="http://www.sciencedirect.com/science?_ob=ArticleURL&_udi=B6TVG-4RJ9X4N-5&_user=965532&_coverDate=05/01/2008&_alid=905922826&_rdoc=50&_fmt=high&_orig=search&_cdi=5534&_sort=d&_docanchor=&view=c&_ct=1028&_acct=C000049540&_version=1&_urlVersion=0&_userid=965532&md5=32b2841e8487ef82442484d83cf34954">[html]</a> <a href="http://dx.doi.org/10.1016/j.physa.2008.01.024">[doi]</a></li>
-<li>H Liu, <i>The complexity of chinese syntactic dependency networks</i>, Physica A: Statistical Mechanics and its Applications, 2008 <a href="http://www.sciencedirect.com/science?_ob=ArticleURL&_udi=B6TVG-4RM7MXN-4&_user=965532&_coverDate=05/01/2008&_alid=905922826&_rdoc=51&_fmt=high&_orig=search&_cdi=5534&_sort=d&_docanchor=&view=c&_ct=1028&_acct=C000049540&_version=1&_urlVersion=0&_userid=965532&md5=6c54e5e6bb11ab101a5d4df50fbe3323">[html]</a> <a href="http://dx.doi.org/10.1016/j.physa.2008.01.069">[doi]</a></li>
-<li>H Liu and F Hu, <i>What role does syntax play in a language network?</i>, EPL-Europhysics Letters, 2008 <a href="http://www.iop.org/EJ/article/0295-5075/83/1/18002/epl_83_1_18002.html">[html]</a></li>
-<li>EJS Silva and Viviane M de Oliveira, <i>Evolution of the linguistic diversity on correlated landscapes</i>, Physica A <b>387</b>, 5597-5601, 2008 <a href="http://www.sciencedirect.com/science?_ob=ArticleURL&_udi=B6TVG-4SRCJNY-5&_user=965532&_coverDate=09/15/2008&_alid=905922826&_rdoc=35&_fmt=high&_orig=search&_cdi=5534&_sort=d&_docanchor=&view=c&_ct=1028&_acct=C000049540&_version=1&_urlVersion=0&_userid=965532&md5=688c4cefec56900113bb9b76155ec26a">[html]</a></li>
-<li>A Puglisi, A Baronchelli and V Loreto, <i>Cultural route to the emergence of linguistic categories</i>, Proceedings of the National Academy of Sciences <b>105</b>, 7936-7940, 2008 <a href="http://www.pnas.org/cgi/content/full/0802485105/DCSupplemental">[html]</a> <a href="http://dx.doi.org/10.1073/pnas.0802485105">[doi]</a></li>
-<li>C Huang and S Peng, <i>Fractals of forbidden words and approximating their box dimensions</i>, Physica A: Statistical Mechanics and its Applications <b>387</b>, 703-716, 2008 <a href="http://www.sciencedirect.com/science?_ob=ArticleURL&_udi=B6TVG-4PSK8V1-6&_user=965532&_coverDate=01/15/2008&_alid=905922826&_rdoc=71&_fmt=high&_orig=search&_cdi=5534&_sort=d&_docanchor=&view=c&_ct=1028&_acct=C000049540&_version=1&_urlVersion=0&_userid=965532&md5=e429950af2411c006d4f828a21301ef2">[html]</a> <a href="http://dx.doi.org/10.1016/j.physa.2007.09.009">[doi]</a></li>
-<li>M Markosova, <i>Network model of human language</i>, Physica A: Statistical Mechanics and its Applications <b>387</b>, 661-666, 2008 <a href="http://www.sciencedirect.com/science?_ob=ArticleURL&_udi=B6TVG-4PT295N-4&_user=965532&_coverDate=01/15/2008&_alid=905922826&_rdoc=68&_fmt=high&_orig=search&_cdi=5534&_sort=d&_docanchor=&view=c&_ct=1028&_acct=C000049540&_version=1&_urlVersion=0&_userid=965532&md5=cbc75e14d1d3ad66f5b3f2b4a0597c3e">[html]</a> <a href="http://dx.doi.org/10.1016/j.physa.2007.09.027">[doi]</a></li>
-<li>E Russo, V Namboodiri, A Treves and E Kropff, <i>Free association transitions in models of cortical latching dynamics</i>, New Journal of Physics, 2008 <a href="http://www.iop.org/EJ/article/1367-2630/10/1/015008/njp8_1_015008.html">[html]</a></li>
-<li>S Wichmann, D Stauffer, C Schulze and E Holman, <i>Do language change rates depend on population size?</i>, Advances in Complex Systems, 2008 <a href="http://arxiv.org/pdf/0706.1842">[html]</a></li>
-<li>T Hadzibeganovic, D Stauffer and C Schulze, <i>Boundary effects in a three-state modified voter model for languages</i>, Physica A: Statistical Mechanics and its Applications, 2008 <a href="http://linkinghub.elsevier.com/retrieve/pii/S037843710800174X">[html]</a></li>
-</ul>
-<h3 id="y2007">2007</h3>
-
-
-<ul>
-<li>Vittorio Loreto and Luc Steels, <i>Social dynamics: emergence of language</i>, Nature Physics <b>3</b>, 758-760, 2007 <a href="http://www.nature.com/nphys/index.html">[html]</a> <a href="http://dx.doi.org/10.1038/nphys770">[doi]</a></li>
-<li>Claudio Castellano, Santo Fortunato and Vittorio Loreto, <i>Statistical physics of social dynamics</i>, arXiv:0710.3256v1 <b>physics.soc-ph</b>, 2007 <a href="http://arxiv.org/abs/0710.3256v1">[html]</a></li>
-<li>C Cattuto, V Loreto and L Pietronero, <i>Semiotic dynamics and collaborative tagging</i>, Proceedings of the National Academy of Sciences, 2007 <a href="http://www.pnas.org/cgi/content/abstract/104/5/1461">[html]</a></li>
-<li>C Schulze and D Stauffer, <i>Competition of languages in the presence of a barrier</i>, Physica A: Statistical Mechanics and its Applications, 2007 <a href="http://linkinghub.elsevier.com/retrieve/pii/S0378437107002245">[html]</a></li>
-<li>M Torres, H Rufiner, D Milone and A Cherniz, <i>Multiresolution information measures applied to speech recognition☆</i>, Physica A: Statistical Mechanics and its Applications <b>385</b>, 319-332, 2007 <a href="http://www.sciencedirect.com/science?_ob=ArticleURL&_udi=B6TVG-4P40KM3-2&_user=965532&_coverDate=11/01/2007&_alid=905922826&_rdoc=87&_fmt=high&_orig=search&_cdi=5534&_sort=d&_docanchor=&view=c&_ct=1028&_acct=C000049540&_version=1&_urlVersion=0&_userid=965532&md5=14bd954539292f56d5111edce1db6330">[html]</a> <a href="http://dx.doi.org/10.1016/j.physa.2007.06.031">[doi]</a></li>
-<li>P de Oliveira, D Stauffer, F Lima and A Sousa, <i>Bit-strings and other modifications of viviane model for language competition</i>, Physica A: Statistical Mechanics and its Applications, 2007 <a href="http://linkinghub.elsevier.com/retrieve/pii/S0378437106010740">[html]</a></li>
-<li>K Urbanowicz and H Kantz, <i>Improvement of speech recognition by nonlinear noise reduction</i>, Chaos: An Interdisciplinary Journal of Nonlinear Science, 2007 <a href="http://link.aip.org/link/?CHAOEH/17/023121/1">[html]</a></li>
-<li>Erez Lieberman, Jean-Baptiste Michel, Joe Jackson, Tina Tang and Martin A Nowak, <i>Quantifying the evolutionary dynamics of language</i>, Nature <b>449</b>, 713-716, 2007 <a href="http://www.nature.com/nature/journal/v449/n7163/abs/nature06137.html;jsessionid=F8A489D61E5FBF56BC57672443149AB7">[html]</a> <a href="http://dx.doi.org/10.1038/nature06137">[doi]</a></li>
-<li>S Wichmann, D Stauffer, C Schulze and E Holman, <i>Meaning and form in a language computer simulation</i>, Arxiv preprint arXiv:0801.0109, 2007 <a href="http://arxiv.org/abs/0801.0109">[html]</a></li>
-<li>S Wichmann, D Stauffer, C Schulze and E Holman, <i>Do language change rates depend on population size?</i>, Arxiv preprint arXiv:0706.1842, 2007 <a href="http://arxiv.org/pdf/0706.1842">[html]</a></li>
-<li>Ramon Ferrer I Cancho and Albert Diaz-Guilera, <i>The global minima of the communicative energy of natural communication systems</i>, Journal of Statistical Mechanics: Theory and Experiment <b>2007</b>, P06009, 2007 <a href="http://www.iop.org/EJ/article/jstat7_06_p06009.html">[html]</a> <a href="http://dx.doi.org/10.1088/1742-5468/2007/06/P06009">[doi]</a></li>
-<li>R Blythe and A Mckane, <i>Stochastic models of evolution in genetics, ecology and linguistics</i>, Journal of Statistical Mechanics: Theory and Experiment <b>2007</b>, P07018, 2007 <a href="http://www.iop.org/EJ/article/jstat7_07_p07018.html">[html]</a> <a href="http://dx.doi.org/10.1088/1742-5468/2007/07/P07018">[doi]</a></li>
-<li>C Schulze, D Stauffer, T Zhou, J Ren and M Medo, <i>Language simulation after a conquest</i>, eprint arXiv: 0707.0072, 2007 <a href="http://adsabs.harvard.edu/abs/2007arXiv0707.0072S">[html]</a></li>
-</ul>
-<h3 id="y2006">2006</h3>
-
-
-<ul>
-<li>Luca Dall'asta, Andrea Baronchelli, Alain Barrat and Vittorio Loreto, <i>Nonequilibrium dynamics of language games on complex networks</i>, Phys Rev E <b>74</b>, 2006 <a href="http://scitation.aip.org/getabs/servlet/GetabsServlet?prog=normal&id=PLEEE8000074000003036105000001&idtype=cvips&gifs=yes">[html]</a> <a href="http://dx.doi.org/10.1103/PhysRevE.74.036105">[doi]</a></li>
-<li>K Kosmidis, A Kalampokis and P Argyrakis, <i>Statistical mechanical approach to human language</i>, Physica A: Statistical Mechanics and its Applications <b>366</b>, 495-502, 2006 <a href="http://www.sciencedirect.com/science?_ob=ArticleURL&_udi=B6TVG-4HPD2SR-1&_user=965532&_rdoc=1&_fmt=&_orig=search&_sort=d&view=c&_version=1&_urlVersion=0&_userid=965532&md5=63105e185e9285001dbad125e26f7f4e">[html]</a> <a href="http://dx.doi.org/10.1016/j.physa.2005.10.039">[doi]</a></li>
-<li>C Schulze and D Stauffer, <i>Recent developments in computer simulations of language competition</i>, Computing in Science {\&} Engineering, 2006 <a href="http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=1624308">[html]</a></li>
-<li>V de Oliveira, P Campos, M Gomes and I Tsang, <i>Bounded fitness landscapes and the evolution of the linguistic diversity</i>, Physica A: Statistical Mechanics and its Applications, 2006 <a href="http://linkinghub.elsevier.com/retrieve/pii/S0378437106001610">[html]</a></li>
-<li>C Schulze and D Stauffer, <i>Monte carlo simulation of survival for minority languages</i>, Arxiv preprint physics, 2006 <a href="http://arxiv.org/abs/physics/0605066">[html]</a></li>
-<li>C Schulze and D Stauffer, <i>Computer simulation of language competition by physicists</i>, Econophysics and Sociophysics: Trends and Perspectives, 2006 <a href="http://books.google.com/books?hl=en&lr=&ie=UTF-8&id=Efu6VvSBdSIC&oi=fnd&pg=PA311&dq=%2522Schulze%2522+%2522Stauffer%2522&ots=XDRTmhIatP&sig=-K8qlAn-fSVumE_jpYh3Lhj065w">[html]</a></li>
-<li>E Holman, C Schulze, D Stauffer and S Wichmann, <i>On the relation between structural diversity and geographical distance among languages: observations {\ldots</i>, Arxiv preprint physics, 2006 <a href="http://arxiv.org/abs/physics/0607031">[html]</a></li>
-<li>A  P Masucci and G  J Rodgers, <i>Network properties of written human language</i>, Phys Rev E <b>74</b>, 2006 <a href="http://scitation.aip.org/getabs/servlet/GetabsServlet?prog=normal&id=PLEEE8000074000002026102000001&idtype=cvips&gifs=yes">[html]</a> <a href="http://dx.doi.org/10.1103/PhysRevE.74.026102">[doi]</a></li>
-<li>G  J Baxter, R  A Blythe, W Croft and A  J Mckane, <i>Utterance selection model of language change</i>, Phys Rev E <b>73</b>, 2006 <a href="http://scitation.aip.org/getabs/servlet/GetabsServlet?prog=normal&id=PLEEE8000073000004046118000001&idtype=cvips&gifs=yes">[html]</a> <a href="http://dx.doi.org/10.1103/PhysRevE.73.046118">[doi]</a></li>
-<li>E Alvarez-Lacalle, B Dorow, JP Eckmann and E Moses, <i>Hierarchical structures induce long-range dynamical correlations in written texts</i>, P Natl Acad Sci Usa <b>103</b>, 7956-7961, 2006 <a href="http://www.pnas.org/content/103/21/7956">[html]</a> <a href="http://dx.doi.org/10.1073/pnas.0510673103">[doi]</a></li>
-<li>V de Oliveira, M Gomes and I Tsang, <i>Theoretical model for the evolution of the linguistic diversity</i>, Physica A: Statistical Mechanics and its Applications, 2006 <a href="http://linkinghub.elsevier.com/retrieve/pii/S0378437105007053">[html]</a></li>
-<li>Xavier Castell&oacute;, Victor Eguiluz and Maxi Miguel, <i>Ordering dynamics with two non-excluding options: bilingualism in language competition</i>, New Journal of Physics <b>8</b>, 308, 2006 <a href="http://www.iop.org/EJ/article/njp6_12_308.html">[html]</a> <a href="http://dx.doi.org/10.1088/1367-2630/8/12/308">[doi]</a></li>
-<li>D Stauffer, C Schulze, F Lima and S Wichmann, <i>Non-equilibrium and irreversible simulation of competition among languages</i>, Physica A: Statistical Mechanics and its Applications, 2006 <a href="http://linkinghub.elsevier.com/retrieve/pii/S0378437106003864">[html]</a></li>
-<li>R Ferrer I Cancho, <i>Why do syntactic links not cross?</i>, EPL (Europhysics Letters) <b>76</b>, 1228, 2006 <a href="http://www.iop.org/EJ/article/epl9729.html">[html]</a> <a href="http://dx.doi.org/10.1209/epl/i2006-10406-0">[doi]</a></li>
-<li>Luca Dall'asta and Andrea Baronchelli, <i>Microscopic activity patterns in the naming game</i>, Journal of Physics A: Mathematical and General <b>39</b>, 14851, 2006 <a href="http://www.iop.org/EJ/abstract/0305-4470/39/48/002">[html]</a> <a href="http://dx.doi.org/10.1088/0305-4470/39/48/002">[doi]</a></li>
-<li>Andrea Baronchelli, Luca Dall'asta, Alain Barrat and Vittorio Loreto, <i>Topology-induced coarsening in language games</i>, Phys Rev E <b>73</b>, 2006 <a href="http://scitation.aip.org/getabs/servlet/GetabsServlet?prog=normal&id=PLEEE8000073000001015102000001&idtype=cvips&gifs=yes">[html]</a> <a href="http://dx.doi.org/10.1103/PhysRevE.73.015102">[doi]</a></li>
-</ul>
-<h3 id="y2005">2005</h3>
-
-
-<ul>
-<li>C Schulze and D Stauffer, <i>Sociophysics simulations i: language competition</i>, Arxiv preprint physics, 2005 <a href="http://arxiv.org/abs/physics/0502144">[html]</a></li>
-<li>K  E Kechedzhi, O  V Usatenko and V  A Yampol'skii, <i>Rank distributions of words in correlated symbolic systems and the zipf law</i>, Phys Rev E <b>72</b>, 2005 <a href="http://prola.aps.org/abstract/PRE/v72/i4/e046138">[html]</a> <a href="http://dx.doi.org/10.1103/PhysRevE.72.046138">[doi]</a></li>
-<li>Ramon Ferrer i Cancho, Andrea Capocci and Guido Caldarelli, <i>Spectral methods cluster words of the same class in a syntactic  dependency network</i>, arXiv:cond-mat/0504165v1 <b>cond-mat.stat-mech</b>, 2005 <a href="http://arxiv.org/abs/cond-mat/0504165v1">[html]</a></li>
-<li>J Mira and &Aacute; Paredes, <i>Interlinguistic similarity and language death dynamics</i>, EPL (Europhysics Letters) <b>69</b>, 1031, 2005 <a href="http://www.iop.org/EJ/article/epl8643.html">[html]</a> <a href="http://dx.doi.org/10.1209/epl/i2004-10438-4">[doi]</a></li>
-<li>Dami&aacute;n Zanette and Marcelo Montemurro, <i>Dynamics of text generation with realistic zipf's distribution</i>, J. of Quantitative Linguistics <b>12</b>, 29-40, 2005 <a href="http://dx.doi.org/10.1080/09296170500055293">[doi]</a></li>
-<li>S  S Melnyk, O  V Usatenko and V  A Yampol'skii, <i>Competition between two kinds of correlations in literary texts</i>, Phys Rev E <b>72</b>, 2005 <a href="http://prola.aps.org/abstract/PRE/v72/i2/e026140">[html]</a> <a href="http://dx.doi.org/10.1103/PhysRevE.72.026140">[doi]</a></li>
-<li>C Schulze and D Stauffer, <i>Simulation of language competition by physicists</i>, Arxiv preprint physics, 2005 <a href="http://arxiv.org/abs/physics/0511049">[html]</a></li>
-<li>D Stauffer and C Schulze, <i>Microscopic and macroscopic simulation of competition between languages</i>, Physics of Life Reviews, 2005 <a href="http://linkinghub.elsevier.com/retrieve/pii/S1571064505000114">[html]</a></li>
-<li>Andrea Baronchelli, Emanuele Caglioti and Vittorio Loreto, <i>Artificial sequences and complexity measures</i>, Journal of Statistical Mechanics: Theory and Experiment <b>2005</b>, P04002, 2005 <a href="http://www.iop.org/EJ/article/jstat5_04_p04002.html">[html]</a> <a href="http://dx.doi.org/10.1088/1742-5468/2005/04/P04002">[doi]</a></li>
-<li>R Sol&eacute;, B Murtra, S Valverde and L Steels, <i>Language networks: their structure, function and evolution</i>, Trends in Cognitive Sciences, 2005 <a href="http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.125.9850&rep=rep1&type=pdf">[html]</a></li>
-</ul>
-<h3 id="y2004">2004</h3>
-
-
-<ul>
-<li>C Schulze and D Stauffer, <i>Monte carlo simulation of the rise and the fall of languages</i>, Arxiv preprint cond-mat, 2004 <a href="http://arxiv.org/abs/cond-mat/0411162">[html]</a></li>
-<li>W Mitchener and M Nowak, <i>Chaos and language</i>, Proceedings of the Royal Society B: Biological Sciences, 2004 <a href="http://journals.royalsociety.org/index/3TDX22GENVNPDM79.pdf">[html]</a></li>
-<li>Ramon Ferrer I Cancho, <i>Euclidean distance between syntactically linked words</i>, Phys Rev E <b>70</b>, 2004 <a href="http://dx.doi.org/10.1103/PhysRevE.70.056135">[html]</a> <a href="http://dx.doi.org/10.1103/PhysRevE.70.056135">[doi]</a></li>
-<li>J  F Fontanari and L  I Perlovsky, <i>Solvable null model for the distribution of word frequencies</i>, Phys Rev E <b>70</b>, 2004 <a href="http://scitation.aip.org/getabs/servlet/GetabsServlet?prog=normal&id=PLEEE8000070000004042901000001&idtype=cvips&gifs=yes">[html]</a> <a href="http://dx.doi.org/10.1103/PhysRevE.70.042901">[doi]</a></li>
-<li>A Dejesusholanda, I Torrespisa, O Kinouchi, A Soutomartinez and E Eduardoseronruiz, <i>Thesaurus as a complex network</i>, Physica A: Statistical Mechanics and its Applications <b>344</b>, 530-536, 2004 <a href="http://www.sciencedirect.com/science?_ob=ArticleURL&_udi=B6TVG-4CS26TT-B&_user=965532&_rdoc=1&_fmt=&_orig=search&_sort=d&view=c&_acct=C000049540&_version=1&_urlVersion=0&_userid=965532&md5=cc8c6009b07b6e69d4ff9cb3ad6c0a2f">[html]</a> <a href="http://dx.doi.org/10.1016/j.physa.2004.06.025">[doi]</a></li>
-<li>RFI Cancho, RV Sole and R Kohler, <i>Patterns in syntactic dependency networks</i>, Phys. Rev. E <b>69</b>, 051915, 2004 <a href="http://prola.aps.org/abstract/PRE/v69/i5/e051915">[html]</a> <a href="http://dx.doi.org/10.1103/PhysRevE.69.051915">[doi]</a></li>
-<li>F Cucker, S Smale and D Zhou, <i>Modeling language evolution</i>, Foundations of Computational Mathematics, 2004 <a href="http://www.springerlink.com/index/HGN6K1519CH883QV.pdf">[html]</a></li>
-</ul>
-<h3 id="y2003">2003</h3>
-
-
-<ul>
-<li>William J  Sutherland, <i>Parallel extinction risk and global distribution of languages and species</i>, Nature <b>423</b>, 276, 2003 <a href="http://www.nature.com/nature/journal/v423/n6937/abs/nature01607.html">[html]</a> <a href="http://dx.doi.org/doi:10.1038/nature01607">[doi]</a></li>
-<li>O  V Usatenko and V  A Yampol'skii, <i>Binary n-step markov chains and long-range correlated systems</i>, Phys Rev Lett <b>90</b>, 2003 <a href="http://prola.aps.org/abstract/PRL/v90/i11/e110601">[html]</a> <a href="http://dx.doi.org/10.1103/PhysRevLett.90.110601">[doi]</a></li>
-<li>Albert C -C Yang, Shu-Shya Hseu, Huey-Wen Yien, Ary L Goldberger and C -K Peng, <i>Linguistic analysis of the human heartbeat using frequency and rank order statistics</i>, Phys Rev Lett <b>90</b>, 2003 <a href="http://prola.aps.org/abstract/PRL/v90/i10/e108103">[html]</a> <a href="http://dx.doi.org/10.1103/PhysRevLett.90.108103">[doi]</a></li>
-<li>M J BERRYMAN, A ALLISON and D ABBOTT, <i>Statistical  techniques for text classificationbased on word recurrence intervals</i>, Fluctuation and Noise Letters <b>3</b>, L1-L10, 2003</li>
-<li>Chikara Furusawa, <i>Zipf's law in gene expression</i>, Phys Rev Lett <b>90</b>, 2003 <a href="http://prola.aps.org/abstract/PRL/v90/i8/e088102">[html]</a> <a href="http://dx.doi.org/10.1103/PhysRevLett.90.088102">[doi]</a></li>
-<li>RFI Cancho and RV Sole, <i>Least effort and the origins of scaling in human language</i>, P Natl Acad Sci Usa <b>100</b>, 788-791, 2003 <a href="http://www.pnas.org/content/100/3/788">[html]</a> <a href="http://dx.doi.org/10.1073/pnas.0335980100">[doi]</a></li>
-<li>Honging Zhou and GaryW Slater, <i>A metric to search for relevant words</i>, Physica A <b>329</b>, 309--327, 2003 <a href="http://www.elsevier.com/wps/find/journaldescription.cws_home/505702/description%23description">[html]</a></li>
-<li>Nathalie Prevost, <i>The physics of language: toward a phase-transition of language change</i>, PhD thesis, 1-170, 2003</li>
-<li>O  V Usatenko and V  A Yampol'skii, <i>Symbolic stochastic dynamical systems viewed as binary n-step markov chains</i>, Phys Rev E <b>68</b>, 2003 <a href="http://prola.aps.org/abstract/PRE/v68/i6/e061107">[html]</a> <a href="http://dx.doi.org/10.1103/PhysRevE.68.061107">[doi]</a></li>
-<li>D Abrams and S Strogatz, <i>Modelling the dynamics of language death</i>, Nature, 2003 <a href="http://audiophile.tam.cornell.edu/~dma32/papers/Abrams_Strogatz_Language_Death.pdf">[html]</a></li>
-</ul>
-<h3 id="y2002">2002</h3>
-
-
-<ul>
-<li>Werner Ebeling, Alexander Neiman and Thorsten Poeschel, <i>Dynamic entropies, long-range correlations, and fluctuations in complex  linear structures</i>, arXiv:cond-mat/0204076v1 <b>cond-mat.dis-nn</b>, 2002 <a href="http://arxiv.org/abs/cond-mat/0204076v1">[html]</a></li>
-<li>M Nowak, N Komarova and P Niyogi\ldots, <i>Computational and evolutionary aspects of language</i>, Nature, 2002 <a href="http://www.linguistics.pomona.edu/lcs11fall04/readings/NyogiKNnature.pdf">[html]</a></li>
-<li>Werner Ebeling, Thorsten Poeschel and Karl-Friedrich Albrecht, <i>Entropy, transinformation and word distribution of information-carrying  sequences</i>, arXiv:cond-mat/0204045v1 <b>cond-mat.stat-mech</b>, 2002 <a href="http://arxiv.org/abs/cond-mat/0204045v1">[html]</a></li>
-<li>M Ortu&ntilde;o, P Carpena, P Bernaola-Galv&aacute;n, E Mu&ntilde;oz and A  M Somoza, <i>Keyword detection in natural languages and dna</i>, Europhys. Lett. <b>57</b>, 759-764, 2002 <a href="http://epljournal.edpsciences.org/">[html]</a> <a href="http://dx.doi.org/10.1209/epl/i2002-00528-3">[doi]</a></li>
-<li>Adilson E Motter, Alessandro P S de De Moura, Ying-Cheng Lai and Partha Dasgupta, <i>Topology of the conceptual network of language</i>, Phys. Rev. E <b>65</b>, 2002 <a href="http://pre.aps.org/">[html]</a> <a href="http://dx.doi.org/10.1103/PhysRevE.65.065102">[doi]</a></li>
-<li>M Sigman and G A Cecchi, <i>Global organization of the wordnet lexicon</i>, Proceedings of the National Academy of Sciences <b>99</b>, 1742--1747, 2002 <a href="http://dx.doi.org/10.1073/pnas.022341799">[html]</a></li>
-<li>M Montemurro and P Pury, <i>Long-range fractal correlations in literary {\ldots</i>, Fractals <b>10</b>, 451-461, 2002 <a href="http://arxiv.org/abs/cond-mat/0201139">[html]</a></li>
-<li>Marcelo Montemurro and Dami&aacute;n Zanette, <i>Entropic analysis of therole of words in literary texts</i>, Advances in Complex Systems <b>5</b>, 7-17, 2002</li>
-<li>Dario Benedetto, Emanuele Caglioti and Vittorio Loreto, <i>Language trees and zipping</i>, Phys Rev Lett <b>88</b>, 2002 <a href="http://prola.aps.org/abstract/PRL/v88/i4/e048702">[html]</a> <a href="http://dx.doi.org/10.1103/PhysRevLett.88.048702">[doi]</a></li>
-</ul>
-<h3 id="y2001">2001</h3>
-
-
-<ul>
-<li>M Nowak, N Komarova and P Niyogi, <i>Evolution of universal grammar</i>, Science, 2001 <a href="http://www.sciencemag.org/cgi/content/abstract/291/5501/114">[html]</a></li>
-<li>MA Montemurro, <i>Beyond the zipf-mandelbrot law in quantitative linguistics</i>, Physica A <b>300</b>, 567-578, 2001 <a href="http://sub3.isiknowledge.com/error/Error?Domain=isiknowledge.com&Params=DestApp%253DWOS%2526DestParams%253D%25253Faction%25253Dretrieve%252526mode%25253DFullRecord%252526product%25253DWOS%252526UT%25253D000172092800018%252526customersID%25253Dmekentosj%2526DestFail%253Dhttp%25253A%25252F%25252Fwww.isinet.com%25252Fisi%25252Fproducts%25252Fesource%25252Fservice.html%2526SrcApp%253DPapers%2526SrcAuth%253Dmekentosj&ErrorCode=Server.sessionExpired&Error=No+matches+returned+for+SessionID&Src=SIDCheck&PathInfo=%252F&RouterURL=http%253A%252F%252Fisiknowledge.com%252F&TimerValue=30000">[html]</a></li>
-<li>RFI Cancho and RV Sole, <i>The small world of human language</i>, P R Soc B <b>268</b>, 2261-2265, 2001 <a href="http://apps.isiknowledge.com/InboundService.do?Func=Frame&product=WOS&action=retrieve&SrcApp=Papers&UT=000172101600011&SID=1Bi7NoIDOlhg8bnADbp&Init=Yes&SrcAuth=mekentosj&mode=FullRecord&customersID=mekentosj&DestFail=http%253A%252F%252Faccess.isiproducts.com%252Fcustom_images%252Fwok_failed_auth.html">[html]</a></li>
-<li>S Dorogovtsev and J Mendes, <i>Condensed matter> statistical mechanics title: language as an evolving word web</i>, Journal reference: Proc. Royal Soc. London B, 2001 <a href="http://arxiv.org/abs/cond-mat/0105093">[html]</a></li>
-</ul>
-<h3 id="y2000">2000</h3>
-
-
-<ul>
-<li>Rainer Hegger, Holger Kantz and Lorenzo Matassini, <i>Denoising human speech signals using chaoslike features</i>, Phys Rev Lett <b>84</b>, 3197-3200, 2000 <a href="http://prola.aps.org/abstract/PRL/v84/i14/p3197_1">[html]</a> <a href="http://dx.doi.org/10.1103/PhysRevLett.84.3197">[doi]</a></li>
-</ul>
-<h3 id="y1999">1999</h3>
-
-
-<ul>
-<li>M Cassandro, Pierre Collet, Antonio Galves and Charlotte Galves, <i>A statistical-physics approach to language acquisition and language change</i>, Physica A: Statistical Mechanics and its Applications <b>263</b>, 427-437, 1999 <a href="http://www.sciencedirect.com/science?_ob=ArticleURL&_udi=B6TVG-3YGKSSR-1J&_user=965532&_rdoc=1&_fmt=&_orig=search&_sort=d&view=c&_acct=C000049540&_version=1&_urlVersion=0&_userid=965532&md5=8b87b88b8745188925859a964cca9d8b">[html]</a> <a href="http://dx.doi.org/10.1016/S0378-4371(98)00503-2">[doi]</a></li>
-<li>M Nowak and D Krakauer, <i>The evolution of language</i>, Proceedings of the National Academy of Sciences of the {\ldots, 1999 <a href="http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=22182">[html]</a></li>
-</ul>
-<h3 id="y1998">1998</h3>
-
-
-<ul>
-<li>G Troll and P Beim Graben, <i>Zipf's law is not a consequence of the central limit theorem</i>, Phys Rev E <b>57</b>, 1347-1355, 1998 <a href="http://prola.aps.org/abstract/PRE/v57/i2/p1347_1">[html]</a> <a href="http://dx.doi.org/10.1103/PhysRevE.57.1347">[doi]</a></li>
-</ul>
-<h3 id="y1996">1996</h3>
-
-
-<ul>
-<li>Andr&aacute;s Czir&oacute;k, H  Eugene Stanley and Tam&aacute;s Vicsek, <i>Possible origin of power-law behavior in n-tuple zipf analysis</i>, Phys Rev E <b>53</b>, 6371-6375, 1996 <a href="http://prola.aps.org/abstract/PRE/v53/i6/p6371_1">[html]</a> <a href="http://dx.doi.org/10.1103/PhysRevE.53.6371">[doi]</a></li>
-<li>Richard Perline, <i>Zipf's law, the central limit theorem, and the random division of the unit interval</i>, Phys Rev E <b>54</b>, 220-223, 1996 <a href="http://prola.aps.org/showrefs/PRE/v54/i1/p220_1">[html]</a> <a href="http://dx.doi.org/10.1103/PhysRevE.54.220">[doi]</a></li>
-</ul>
-<h3 id="y1995">1995</h3>
-
-
-<ul>
-<li>W Ebeling and A Neiman, <i>Long-range correlations between letters and sentences in texts</i>, Physica A <b>215</b>, 233-241, 1995</li>
-<li>Werner Ebeling, Alexander Neiman and Thorsten P&ouml;schel, <i>Dynamic entropies, long-range correlations and fluctuations in complex  linear structures</i>, arXiv:adap-org/9507007v1 <b>adap-org</b>, 1995 <a href="http://arxiv.org/abs/adap-org/9507007v1">[html]</a></li>
-<li>W Ebeling, T P&ouml;schel and K Albrecht, <i>Entropy, transinformation and word distribution of information-carrying sequences</i>, International Journal of Bifurcation and Chaos, 1995 <a href="http://bioinf.charite.de/thorsten/publications/pdf/epaWWW.pdf">[html]</a></li>
-<li>I Kanter and D  A Kessler, <i>Markov processes: linguistics and zipf's law</i>, Phys Rev Lett <b>74</b>, 4559-4562, 1995 <a href="http://prola.aps.org/abstract/PRL/v74/i22/p4559_1">[html]</a> <a href="http://dx.doi.org/10.1103/PhysRevLett.74.4559">[doi]</a></li>
-</ul>
-<h3 id="y1994">1994</h3>
-
-
-<ul>
-<li>M Amit, Y Shmerler, E Eisenberg, M Abraham and N Shnerb, <i>Language and codification dependence of long-range correlations in texts</i>, Fractals <b>2</b>, 7, 1994 <a href="http://www.worldscinet.com/fractals/02/0201/S0218348X94000028.html">[html]</a> <a href="http://dx.doi.org/10.1142/S0218348X94000028">[doi]</a></li>
-</ul>
-<h3 id="y1993">1993</h3>
-
-
-<ul>
-<li>ALAIN SCHENKEL, JUN ZHANG and YI-CHENG ZHANG, <i>Long range correlation in human writings</i>, Fract. <b>1</b>, 47, 1993 <a href="http://www.worldscinet.com/cgi-bin/details.cgi?id=pii:S0218348X93000083&type=html">[html]</a> <a href="http://dx.doi.org/10.1142/S0218348X93000083">[doi]</a></li>
-<li>Werner Ebeling and Thorsten P&ouml;schel, <i>Entropy and long range correlations in literary english</i>, arXiv:chao-dyn/9309005v1 <b>chao-dyn</b>, 1993 <a href="http://arxiv.org/abs/chao-dyn/9309005v1">[html]</a></li>
-<li>Fernando Pereira, Naftali Tishby and Lillian Lee, <i>Distributional clustering of english words</i>, Proceedings of the 31st annual meeting on Association for Computational Linguistics, 1993 <a href="http://portal.acm.org/citation.cfm?id=981574.981598">[html]</a></li>
-</ul>
-<h3 id="y1989">1989</h3>
-
-
-<ul>
-<li>P Grassberger, <i>Estimating the information content of symbol sequences andefficient codes</i>, IEEE Transactions on Information Theory, 1989 <a href="http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=30993">[html]</a></li>
-<li>G Nicolis, C Nicolis and J Nicolis, <i>Chaotic dynamics, markov partitions, and zipf's law</i>, Journal of Statistical Physics, 1989 <a href="http://www.springerlink.com/index/XN35V48084277163.pdf">[html]</a></li>
-</ul>
-
-
-
-
-<h4 style="margin-bottom:0px;padding-top:10px;">Patents</h4>
-
+<!--  <h4 style="margin-bottom:0px;padding-top:10px;">Patents</h4> -->
 
     </div><!-- /.article-wrap -->
     {% if site.disqus_shortname and page.comments %}
