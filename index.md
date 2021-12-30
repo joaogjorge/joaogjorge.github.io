@@ -4,7 +4,7 @@ title: About me
 description: "Joao Jorge's website"
 tags: [Jekyll, theme, responsive, blog, template]
 image:
-  feature: top_bar.jpg
+  feature: cornwall_pano.jpg
 ---
 
 I work on digital health and medical AI.
