@@ -8,10 +8,10 @@ comments: false
 ---
 
 
-You can also browse my <a href="http://scholar.google.es/citations?user=w7TII3EAAAAJ" target="_blank">Google Scholar profile</a>.
 
 ### Research
 
+* [**Non-contact vital sign monitoring**](https://cameralab.eng.ox.ac.uk/publications.html)<br>
 You can find some code I’ve written in the <a href="https://cameralab.eng.ox.ac.uk/publications.html" target="_blank">Code</a> section of the CameraLab & Wearables group.
 
 ### Other
